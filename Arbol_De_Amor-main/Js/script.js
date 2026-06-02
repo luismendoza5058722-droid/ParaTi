@@ -70,7 +70,7 @@ function getURLParam(name) {
 function showDedicationText() { //seguidores
   let text = getURLParam('text');
   if (!text) {
-    text = `Para el mi mejor amiga Jime:\n\nEntre libros y estudios, tu amistad es lo que me motiva a ser cada vez mejor. ¡Gracias por tu fuerza y motivación, hermosa amiga!.\n\nGracias por acompañarme en cada paso, por entenderme incluso en silencio.\n\nTe quiero más de lo que las palabras pueden expresar.`;  } else {
+    text = `Para mi mejor amiga Jime:\n\nEntre libros y estudios, tu amistad es lo que me motiva a ser cada vez mejor. ¡Gracias por tu fuerza y motivación, hermosa amiga!.\n\nGracias por acompañarme en cada paso, por entenderme incluso en silencio.\n\nTe quiero más de lo que las palabras pueden expresar.`;  } else {
     text = decodeURIComponent(text).replace(/\\n/g, '\n');
   }
   const container = document.getElementById('dedication-text');
